@@ -1,0 +1,29 @@
+.logo {
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 10px;
+}
+
+#MyTimes {
+  color:MediumAquamarine;
+  padding: 20px 10px;
+}
+
+.right-nav ul{
+  display: flex;
+  flex: inline-block;
+  float: right;
+}
+
+.right-nav ul li {
+  padding: 20px 10px 0px 10px;
+  list-style-type: none;
+}
+
+.logo,
+.right-nav ul li a{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
