@@ -2,6 +2,8 @@
   list-style-type: none;
   display: inline-flex;
   padding-left: 10px;
+  border: solid;
+  width: 1050px;
 }
 
 #MyTimes {
@@ -26,4 +28,92 @@
   font-size: 14px;
   font-weight: bold;
   color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column.large {
+  width: 630px;
+  float: left;
+  }
+
+.column.medium {
+  width: 300px;
+  float: center;
+}
+
+.column.small {
+  width: 240px;
+  float: right;
+}
+
+.column.large,
+.column.medium,
+.column.small {
+  display: inline-block;
+  flex-flow: column;
+  padding: 30px 20px;
+}
+
+.Main-story {
+  display:flex;
+  background-image: url(../resources/img-story-main.png);
+  width: 630px;
+  height:300px;
+}
+
+.Main-story h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.Earth-image {
+  background-image: url(../resources/img-story-2.png);
+}
+
+.Earth-image h1,
+.Cameraman h1,
+.Cat-image h1 {
+  flex: auto;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.Cameraman {
+  background-image: url(../resources/img-story-3.png);
+}
+
+.Earth-image,
+.Cameraman,
+.Cat-image,
+.Cookie-image {
+  display: flex;
+  width: 299px;
+  height: 300px;
+}
+
+.column.large Second-article,
+.column.large Third-article {
+  display: inline-block;
+  flex-direction: column;
+  flex-shrink: 2;
+}
+
+.Cat-image {
+  background-image: url(../resources/img-story-1.png);
+}
+
+.Cookie-image {
+  background-image: url(../resources/img-news-bite.png);
+  width: 240px;
+  height: 240px;
 }
